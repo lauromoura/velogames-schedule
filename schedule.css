@@ -1,0 +1,45 @@
+
+.checked {
+	font-weight: 900;
+}
+
+.unchecked {
+	font-weight: normal;
+}
+
+
+
+/* .first-col { */
+/* 	position: absolute; */
+/* 	width: 30em; */
+/* 	margin-left: -30em; */
+/* } */
+
+/* .table-wrapper { */
+/* 	overflow-x: scroll; */
+/* 	width: 800px; */
+/* 	margin: 0 auto; */
+/* } */
+
+th, td {
+	white-space: nowrap;
+}
+
+/* div.dataTables_wrapper { */
+/* 	width: 800px; */
+/* 	margin: 0 auto; */
+/* } */
+
+tr[role=row] {
+  background:white;
+}
+
+/* The couple rules below is due to some bug on fixed columns when
+ * integrating with Bootstrap 4
+ */
+table.dataTable.table-striped.DTFC_Cloned tbody tr:nth-of-type(odd) {
+    background-color: #F3F3F3;
+}
+table.dataTable.table-striped.DTFC_Cloned tbody tr:nth-of-type(even) {
+    background-color: white;
+}

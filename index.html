@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Velogames Classics schedule helper</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.16/css/jquery.dataTables.css">
+    <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/fixedcolumns/3.2.4/css/fixedColumns.dataTables.min.css">
+    <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/fixedcolumns/3.2.4/js/dataTables.fixedColumns.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/fixedheader/3.1.3/css/fixedHeader.dataTables.min.css">
+    <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/fixedheader/3.1.3/js/dataTables.fixedHeader.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/responsive/2.2.1/css/responsive.dataTables.min.css">
+    <script type="text/javascript" charset="utf-8" src="https://cdn.datatables.net/responsive/2.2.1/js/dataTables.responsive.min.js"></script>
+
+    <link rel="stylesheet" href="schedule.css">
+
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script src="https://d3js.org/d3-dsv.v1.min.js"></script>
+    <script src="https://d3js.org/d3-fetch.v1.min.js"></script>
+    <script>
+
+        function jsonKeyValueToArray(k, v) { return [k, v] };
+        function jsonToArray(json) {
+            var ret = new Array();
+            var key;
+            for (key in json) {
+                if (json.hasOwnProperty(key)) {
+                    ret.push(jsonKeyValueToArray(key, json[key]));
+                }
+            }
+            return ret;
+        };
+        var RACES = {
+            "milano-sanremo": "MSR",
+            "e3-harelbeke": "E3",
+            "gent-wevelgem": "Gent",
+            "dwars-door-vlaanderen": "Dwars",
+            "ronde-van-vlaanderen": "RVV",
+            "scheldeprijs": "Scheld",
+            "paris-roubaix": "PR",
+            "de-brabantse-pijl": "Brabant",
+            "amstel-gold-race": "Amstel",
+            "la-fleche-wallone": "Fleche",
+            "liege-bastogne-liege": "LBL"
+        };
+        function get_title(value) {
+            if (value in RACES)
+                return RACES[value];
+            return value;
+        };
+        $(document).ready(function() {
+            d3.csv("table.csv").then(function(data) {
+                data.forEach(function (rider) {
+                    for (key in rider) {
+                        if (key in RACES) {
+                            rider[key] = (rider[key] == 1) ? "\u2714" : "";
+                        }
+                    }
+                });
+                var columns = new Array();
+                for (key in data[0]) {
+                    columns.push({data: key, title: get_title(key)});
+                }
+                $("#riders").DataTable({
+                    data: data,
+                    columns: columns,
+                    order: [3, 'desc'],
+                    scrollX: true,
+                    scrollColapse: false,
+                    fixedColumns: {leftColumns: 1},
+                });
+            });
+            jQuery.get("update-time.txt", function(data) {
+                $("#update-time").html(data);
+            });
+
+        });
+    </script>
+</head>
+<body ">
+    <div class="page-header">
+        <h3>Velogames schedule explorer</h3>
+    </div>
+    <div class="container">
+        <p>A check mark means that the rider is present in the startlist
+        for the given race according to <a href="https://procyclingstats.com">PCS</a>.</p>
+    <p>Last updated: <span id="update-time"></span></p>
+    </div>
+    <div class="container-fluid">
+            <table id="riders" class="table-striped table-hover" style="width:100%">
+                <thead></thead>
+                <tbody></tbody>
+            </table>
+    </div>
+</body>
+</html>
+
+
