@@ -4,17 +4,47 @@
 
 import sys
 import csv
-
-from bs4 import BeautifulSoup
+import logging
+import argparse
+import os.path
 from unicodedata import normalize
+
+import requests
+from bs4 import BeautifulSoup
+
+
+URL = 'https://www.velogames.com/spring-classics/2018/riders.php'
+
+logging.basicConfig(level=logging.DEBUG)
+logger = logging.getLogger(__name__)
+
+
+def download(url, filename):
+    '''Downloads url to filename'''
+    r = requests.get(url)
+    r.raise_for_status()
+    with open(filename, 'w', encoding=r.encoding) as output:
+        output.write(r.text)
 
 
 def main():
-    with open(sys.argv[1]) as handle:
+
+    filename = 'riders.php'
+
+    parser = argparse.ArgumentParser(description='Parse rider data')
+    parser.add_argument('source', help='download or local', nargs='?',
+                        choices=('download', 'local'), default='local')
+
+    args = parser.parse_args()
+    source = args.source
+
+    if source == 'download' or not os.path.isfile(filename):
+        download(URL, filename)
+
+    with open(filename) as handle:
         html_data = handle.read()
 
     soup = BeautifulSoup(html_data, 'html.parser')
-
 
     table = soup.find('table')
     data = []
@@ -23,8 +53,8 @@ def main():
         cells = tr.find_all('td')
         name = cells[1].get_text()
         team = cells[2].get_text()
-        points = int(cells[4].get_text() or '0')
-        cost = int(cells[5].get_text() or '0')
+        points = int(cells[3].get_text() or '0')
+        cost = int(cells[4].get_text() or '0')
         data.append({
             'name': normalize('NFC', name),
             'team': normalize('NFC', team),
