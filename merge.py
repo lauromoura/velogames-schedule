@@ -40,5 +40,4 @@ with open('table.csv', 'w') as csvfile:
     writer.writeheader()
     for rider in riders:
         writer.writerow(rider)
-# (riders*1).to_csv('table.csv', index_label='name')
 
