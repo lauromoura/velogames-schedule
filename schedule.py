@@ -18,7 +18,6 @@ logging.basicConfig(level=logging.DEBUG)
 logger = logging.getLogger(__name__)
 
 RACES = [
-    'milano-sanremo',
     'e3-harelbeke',
     'gent-wevelgem',
     'dwars-door-vlaanderen',

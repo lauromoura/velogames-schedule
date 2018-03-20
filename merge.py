@@ -14,7 +14,6 @@ def is_in_race(race):
     return func
 
 RACES = [
-    'milano-sanremo',
     'e3-harelbeke',
     'gent-wevelgem',
     'dwars-door-vlaanderen',
