@@ -2,16 +2,18 @@
 
 #!/usr/bin/env python
 
-import pandas as pd
+import csv
 
-races = pd.read_csv('races.csv')
-riders = pd.read_csv('riders.csv')
+with open('races.csv') as csvfile:
+    races = list(csv.DictReader(csvfile))
+with open('riders.csv') as csvfile:
+    riders = list(csv.DictReader(csvfile))
 
-def is_in_race(race):
-    def func(x):
-        # FIXME +700 calls, getting 2 full bool index on the larger races table...
-        return not races[(races['name'] == x['name']) & (races['race'] == race)].empty
-    return func
+def is_in_race(rider, race):
+    if any([schedule['name'] == rider['name'] and schedule['race'] == race for schedule in races]):
+        return 1
+    else:
+        return 0
 
 RACES = [
     'e3-harelbeke',
@@ -26,8 +28,17 @@ RACES = [
     'liege-bastogne-liege',
 ]
 
-for race in RACES:
-    riders[race] = riders.apply(is_in_race(race), axis=1)
+for rider in riders:
+    for race in RACES:
+        rider[race] = is_in_race(rider, race)
 
-(riders*1).to_csv('table.csv', index_label='name')
+with open('table.csv', 'w') as csvfile:
+    fieldnames = riders[0].keys()
+    writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+    print(fieldnames)
+
+    writer.writeheader()
+    for rider in riders:
+        writer.writerow(rider)
+# (riders*1).to_csv('table.csv', index_label='name')
 
