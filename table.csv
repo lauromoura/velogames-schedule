@@ -1,8 +1,8 @@
 name,team,points,cost,e3-harelbeke,gent-wevelgem,dwars-door-vlaanderen,ronde-van-vlaanderen,scheldeprijs,paris-roubaix,de-brabantse-pijl,amstel-gold-race,la-fleche-wallone,liege-bastogne-liege
 Peter Sagan,BORA - hansgrohe,110,20,1,1,0,1,0,1,0,1,0,0
 Greg Van Avermaet,BMC Racing Team,20,18,1,1,1,1,0,1,0,1,0,0
-Alejandro Valverde,Movistar Team,0,18,0,0,0,0,0,0,0,0,0,0
-Philippe Gilbert,Quick-Step Floors,0,16,1,0,1,1,0,1,0,0,0,0
+Alejandro Valverde,Movistar Team,0,18,0,0,1,0,0,0,0,0,0,0
+Philippe Gilbert,Quick-Step Floors,0,16,1,1,1,1,0,1,0,0,0,0
 Arnaud Démare,Groupama - FDJ,150,14,1,1,0,1,0,1,0,0,0,0
 Michal Kwiatkowski,Team Sky,60,14,0,0,0,1,0,0,0,1,1,1
 Alexander Kristoff,UAE-Team Emirates,130,14,1,1,1,1,0,1,0,0,0,0
@@ -23,11 +23,11 @@ Ion Izagirre,Bahrain Merida Pro Cycling Team,0,10,0,0,0,0,0,0,0,1,1,1
 Tiesj Benoot,Lotto Soudal,0,10,1,0,1,1,0,0,0,1,1,1
 André Greipel,Lotto Soudal,0,10,0,0,0,0,0,0,0,0,0,0
 Tim Wellens,Lotto Soudal,0,10,0,0,0,0,0,0,0,0,1,1
-Michael Albasini,Mitchelton-Scott,0,10,0,0,0,0,0,0,0,0,0,0
+Michael Albasini,Mitchelton-Scott,0,10,0,0,0,0,0,0,0,1,1,1
 Matteo Trentin,Mitchelton-Scott,20,10,1,1,0,1,0,1,0,0,0,0
 Adam Yates,Mitchelton-Scott,0,10,0,0,0,0,0,0,0,0,0,0
 Yves Lampaert,Quick-Step Floors,0,10,1,1,1,1,0,1,0,0,0,0
-Elia Viviani,Quick-Step Floors,10,10,0,0,0,0,1,0,0,0,0,0
+Elia Viviani,Quick-Step Floors,10,10,0,1,1,0,1,0,0,0,0,0
 Marcel Kittel,Team Katusha - Alpecin,0,10,0,1,0,0,1,1,0,0,0,0
 Dylan Groenewegen,Team LottoNL-Jumbo,0,10,0,1,1,1,1,1,0,0,0,0
 Gianni Moscon,Team Sky,0,10,1,1,1,1,0,1,0,0,1,1
@@ -53,27 +53,27 @@ Richie Porte,BMC Racing Team,0,8,0,0,0,0,0,0,0,0,0,0
 Jurgen Roelandts,BMC Racing Team,120,8,1,1,1,1,0,0,0,0,0,0
 Dylan Teuns,BMC Racing Team,0,8,0,0,0,0,0,0,0,0,1,1
 Rafał Majka,BORA - hansgrohe,0,8,0,0,0,0,0,0,0,0,0,1
-Daniel Oss,BORA - hansgrohe,0,8,0,1,1,1,0,1,0,0,0,0
+Daniel Oss,BORA - hansgrohe,0,8,1,1,1,1,0,1,0,0,0,0
 Nacer Bouhanni,Cofidis Solutions Crédits,0,8,0,0,0,0,0,0,0,0,0,0
 Edvald Boasson Hagen,Dimension Data,25,8,1,1,1,1,1,1,0,0,0,0
 Mark Cavendish,Dimension Data,0,8,0,0,0,0,0,0,0,0,0,0
 Tom-Jelte Slagter,Dimension Data,0,8,0,0,0,0,0,0,0,0,0,0
 Sylvain Chavanel,Direct Energie,0,8,1,0,0,0,0,0,0,0,0,0
 Sebastian Langeveld,EF Education First-Drapac p/b Cannondale,0,8,1,1,1,1,0,0,0,0,0,0
-Sacha Modolo,EF Education First-Drapac p/b Cannondale,35,8,0,1,1,1,0,0,0,0,0,0
+Sacha Modolo,EF Education First-Drapac p/b Cannondale,35,8,1,1,1,1,0,0,0,0,0,0
 Daniel Moreno,EF Education First-Drapac p/b Cannondale,0,8,0,0,0,0,0,0,0,0,0,0
 Rigoberto Uran,EF Education First-Drapac p/b Cannondale,0,8,0,0,0,0,0,0,0,0,1,1
 Warren Barguil,Fortuneo - Samsic,0,8,0,0,0,0,0,0,0,0,1,1
 Thibaut Pinot,Groupama - FDJ,0,8,0,0,0,0,0,0,0,0,0,0
-Jens Debusschere,Lotto Soudal,0,8,1,1,1,1,0,1,0,0,0,0
-Jens Keukeleire,Lotto Soudal,0,8,1,1,1,1,1,1,0,0,0,0
+Jens Debusschere,Lotto Soudal,0,8,0,1,1,1,0,1,0,0,0,0
+Jens Keukeleire,Lotto Soudal,0,8,0,1,1,1,1,1,0,0,0,0
 Johan Esteban Chaves,Mitchelton-Scott,0,8,0,0,0,0,0,0,0,0,0,0
 Luke Durbridge,Mitchelton-Scott,0,8,1,0,1,1,0,0,0,0,0,0
 Caleb Ewan,Mitchelton-Scott,170,8,0,0,0,0,0,0,0,0,0,0
 Roman Kreuziger,Mitchelton-Scott,0,8,0,0,0,0,0,0,0,0,0,0
 Mikel Nieve,Mitchelton-Scott,0,8,0,0,0,0,0,0,0,0,0,1
 Simon Yates,Mitchelton-Scott,0,8,0,0,0,0,0,0,0,0,0,0
-Mikel Landa,Movistar Team,0,8,0,0,0,0,0,0,0,1,1,1
+Mikel Landa,Movistar Team,0,8,1,0,0,0,0,0,0,1,1,1
 Nairo Quintana,Movistar Team,0,8,0,0,0,0,0,0,0,0,0,0
 José Joaquín Rojas,Movistar Team,0,8,0,0,0,0,0,0,0,0,0,0
 Dries Devenyns,Quick-Step Floors,0,8,0,0,0,0,0,0,0,0,0,0
@@ -82,13 +82,13 @@ Petr Vakoc,Quick-Step Floors,0,8,0,0,0,0,0,0,0,0,0,0
 Nathan Haas,Team Katusha - Alpecin,15,8,0,0,0,0,0,0,0,1,0,0
 Tony Martin,Team Katusha - Alpecin,0,8,1,1,1,1,1,1,0,0,0,0
 Ilnur Zakarin,Team Katusha - Alpecin,0,8,0,0,0,0,0,0,0,0,1,1
-Lars Boom,Team LottoNL-Jumbo,0,8,1,1,1,1,1,0,0,0,0,0
+Lars Boom,Team LottoNL-Jumbo,0,8,0,0,0,0,0,0,0,0,0,0
 Robert Gesink,Team LottoNL-Jumbo,0,8,0,0,0,0,0,0,0,1,1,1
 Primoz Roglic,Team LottoNL-Jumbo,0,8,0,0,0,0,0,0,0,0,0,0
 Christopher Froome,Team Sky,0,8,0,0,0,0,0,0,0,0,0,0
 Diego Rosa,Team Sky,0,8,0,0,0,0,0,0,0,0,0,0
 Luke Rowe,Team Sky,0,8,0,0,1,1,0,0,0,0,0,0
-Ian Stannard,Team Sky,0,8,1,1,1,1,0,1,0,0,0,0
+Ian Stannard,Team Sky,0,8,0,1,1,1,0,1,0,0,0,0
 Geraint Thomas,Team Sky,0,8,0,0,0,0,0,1,0,0,0,1
 Phil Bauhaus,Team Sunweb,0,8,1,0,1,0,1,0,0,0,0,0
 Tom Dumoulin,Team Sunweb,0,8,0,0,0,0,0,0,0,0,0,1
@@ -104,9 +104,9 @@ Bryan Coquard,Vital Concept,0,8,1,1,0,1,0,0,0,1,0,0
 Jonas Van Genechten,Vital Concept,0,8,0,1,0,1,1,0,0,0,0,0
 Filippo Pozzato,Wilier Triestina - Selle Italia,0,8,0,0,0,0,0,0,0,0,0,0
 Jan Bakelants,AG2R La Mondiale,0,6,0,0,0,0,0,0,0,0,0,0
-Rudy Barbier,AG2R La Mondiale,0,6,0,1,0,1,0,0,0,0,0,0
+Rudy Barbier,AG2R La Mondiale,0,6,1,1,0,1,0,0,0,0,0,0
 Mickaël Chérel,AG2R La Mondiale,0,6,0,0,0,0,0,0,0,0,0,0
-Silvan Dillier,AG2R La Mondiale,0,6,1,1,1,1,0,0,0,0,0,0
+Silvan Dillier,AG2R La Mondiale,0,6,0,0,1,1,0,0,0,0,0,0
 Axel Domont,AG2R La Mondiale,0,6,0,0,0,0,0,0,0,0,0,0
 Samuel Dumoulin,AG2R La Mondiale,0,6,0,0,0,0,0,0,0,0,0,0
 Hubert Dupont,AG2R La Mondiale,0,6,0,0,0,0,0,0,0,0,0,0
@@ -158,10 +158,10 @@ Damiano Caruso,BMC Racing Team,0,6,0,0,0,0,0,0,0,0,0,0
 Alessandro De Marchi,BMC Racing Team,0,6,0,0,0,0,0,0,0,0,0,0
 Rohan Dennis,BMC Racing Team,0,6,0,0,0,0,0,0,0,0,0,0
 Jean-Pierre Drucker,BMC Racing Team,0,6,1,0,1,1,0,1,0,0,0,0
-Stefan Küng,BMC Racing Team,0,6,1,0,1,1,0,0,0,0,0,0
+Stefan Küng,BMC Racing Team,0,6,1,1,1,1,0,0,0,0,0,0
 Nicolas Roche,BMC Racing Team,0,6,0,0,0,0,0,0,0,0,0,0
 Tejay Van Garderen,BMC Racing Team,0,6,0,0,0,0,0,0,0,0,0,0
-Francisco Ventoso,BMC Racing Team,0,6,0,1,1,0,0,0,0,0,0,0
+Francisco Ventoso,BMC Racing Team,0,6,1,1,1,0,0,0,0,0,0,0
 Loïc Vliegen,BMC Racing Team,0,6,0,0,0,0,0,0,0,0,0,0
 Danilo Wyss,BMC Racing Team,0,6,0,0,0,0,0,0,0,0,0,0
 Pascal Ackermann,BORA - hansgrohe,0,6,1,0,1,0,1,0,0,0,0,0
@@ -183,7 +183,7 @@ Pawel Poljanski,BORA - hansgrohe,0,6,0,0,0,0,0,0,0,0,0,1
 Lukas Pöstlberger,BORA - hansgrohe,0,6,0,0,0,0,0,0,0,0,0,0
 Aleksejs Saramotins,BORA - hansgrohe,0,6,0,0,0,1,0,0,0,0,0,0
 Michael Schwarzmann,BORA - hansgrohe,0,6,1,0,0,0,1,0,0,0,0,0
-Rüdiger Selig,BORA - hansgrohe,0,6,0,1,1,0,1,1,0,0,0,0
+Rüdiger Selig,BORA - hansgrohe,0,6,1,1,1,0,1,1,0,0,0,0
 Dimitri Claeys,Cofidis Solutions Crédits,0,6,0,1,1,1,0,0,0,0,0,0
 Nicolas Edet,Cofidis Solutions Crédits,0,6,0,0,0,0,0,0,0,0,0,0
 Jesús Herrada,Cofidis Solutions Crédits,0,6,0,0,0,0,0,0,0,0,0,0
@@ -198,7 +198,7 @@ Mauro Finetto,Delko Marseille Provence KTM,0,6,0,0,0,0,0,0,0,0,1,0
 Jeremy Leveau,Delko Marseille Provence KTM,0,6,0,0,0,0,0,0,0,0,0,0
 Yannick Martinez,Delko Marseille Provence KTM,0,6,0,0,0,0,0,0,0,0,0,0
 Igor Anton,Dimension Data,0,6,0,0,0,0,0,0,0,0,0,0
-Stephen Cummings,Dimension Data,0,6,0,0,0,0,0,0,0,0,0,0
+Stephen Cummings,Dimension Data,0,6,0,0,0,0,0,0,0,0,1,1
 Bernhard Eisel,Dimension Data,0,6,0,0,0,0,0,0,0,0,0,0
 Amanuel Gebreigzabhier,Dimension Data,0,6,0,0,0,0,0,0,0,0,0,0
 Reinardt Janse Van Rensburg,Dimension Data,0,6,0,0,0,0,0,0,0,0,0,0
@@ -206,13 +206,13 @@ Louis Meintjes,Dimension Data,0,6,0,0,0,0,0,0,0,0,0,0
 Serge Pauwels,Dimension Data,0,6,0,0,0,0,0,0,0,0,0,0
 Mark Renshaw,Dimension Data,0,6,0,0,0,0,0,0,0,0,0,0
 Jay Robert Thomson,Dimension Data,0,6,1,1,1,1,1,1,0,0,0,0
-Scott Thwaites,Dimension Data,0,6,1,1,1,1,1,0,0,0,0,0
+Scott Thwaites,Dimension Data,0,6,0,0,0,0,0,0,0,0,0,0
 Julien Vermote,Dimension Data,0,6,1,1,1,1,1,0,0,0,0,0
-Lilian Calmejane,Direct Energie,0,6,0,0,0,0,0,0,0,0,0,0
+Lilian Calmejane,Direct Energie,0,6,0,0,0,0,0,0,0,0,0,1
 Damien Gaudin,Direct Energie,0,6,1,0,0,0,0,0,0,0,0,0
 Adrien Petit,Direct Energie,0,6,1,0,0,0,0,0,0,0,0,0
 Rein Taaramäe,Direct Energie,0,6,0,0,0,0,0,0,0,0,1,1
-Matti Breschel,EF Education First-Drapac p/b Cannondale,50,6,1,1,1,1,1,0,0,0,0,0
+Matti Breschel,EF Education First-Drapac p/b Cannondale,50,6,0,1,1,1,1,0,0,0,0,0
 Brendan Canty,EF Education First-Drapac p/b Cannondale,0,6,0,0,0,0,0,0,0,0,0,0
 Hugh Carthy,EF Education First-Drapac p/b Cannondale,0,6,0,0,0,0,0,0,0,0,0,0
 Simon Clarke,EF Education First-Drapac p/b Cannondale,0,6,0,0,0,0,0,0,0,0,0,0
@@ -245,7 +245,7 @@ Steve Morabito,Groupama - FDJ,0,6,0,0,0,0,0,0,0,0,0,0
 Sebastien Reichenbach,Groupama - FDJ,0,6,0,0,0,0,0,0,0,0,0,0
 Anthony Roux,Groupama - FDJ,0,6,0,0,0,0,0,0,0,1,1,1
 Jérémy Roy,Groupama - FDJ,0,6,0,0,0,0,0,0,0,0,0,0
-Marc Sarreau,Groupama - FDJ,0,6,0,1,0,0,0,0,0,0,0,0
+Marc Sarreau,Groupama - FDJ,0,6,1,1,0,0,0,0,0,0,0,0
 Ramon Sinkeldam,Groupama - FDJ,0,6,1,0,0,1,0,0,0,0,0,0
 Benjamin Thomas,Groupama - FDJ,0,6,0,0,0,0,0,0,0,0,0,0
 Arthur Vichot,Groupama - FDJ,0,6,0,0,0,0,0,0,0,0,0,0
@@ -263,24 +263,24 @@ Victor Campenaerts,Lotto Soudal,0,6,0,0,0,0,0,0,0,0,0,0
 Jasper De Buyst,Lotto Soudal,0,6,1,1,1,1,1,0,0,0,0,0
 Thomas De Gendt,Lotto Soudal,0,6,0,0,0,0,0,0,0,0,1,1
 Adam Hansen,Lotto Soudal,0,6,0,0,0,0,0,0,0,0,0,0
-Moreno Hofland,Lotto Soudal,0,6,0,1,1,0,0,1,0,0,0,0
+Moreno Hofland,Lotto Soudal,0,6,1,1,1,0,0,1,0,0,0,0
 Bjorg Lambrecht,Lotto Soudal,0,6,0,0,0,0,0,0,0,0,0,0
 Nikolas Maes,Lotto Soudal,0,6,1,0,0,0,1,0,0,0,0,0
 Maxime Monfort,Lotto Soudal,0,6,0,0,0,0,0,0,0,0,1,1
-Marcel Sieberg,Lotto Soudal,0,6,0,0,0,1,1,0,0,0,0,0
+Marcel Sieberg,Lotto Soudal,0,6,1,0,0,1,1,0,0,0,0,0
 Tosh Van Der Sande,Lotto Soudal,0,6,0,0,0,0,0,0,0,0,0,0
 Jelle Vanendert,Lotto Soudal,0,6,0,0,0,0,0,0,0,1,1,1
-Jelle Wallays,Lotto Soudal,0,6,1,1,0,1,1,0,0,0,0,0
+Jelle Wallays,Lotto Soudal,0,6,0,1,0,1,1,0,0,0,0,0
 Jack Bauer,Mitchelton-Scott,0,6,1,1,1,1,0,0,0,0,0,0
 Mathew Hayman,Mitchelton-Scott,0,6,1,1,1,1,0,1,0,0,0,0
 Daryl Impey,Mitchelton-Scott,20,6,0,0,0,0,0,0,0,1,0,0
 Christopher Juul-Jensen,Mitchelton-Scott,20,6,0,0,0,0,0,0,0,0,0,0
 Roger Kluge,Mitchelton-Scott,20,6,0,1,1,0,0,0,0,0,0,0
-Luka Mezgec,Mitchelton-Scott,0,6,0,1,1,1,0,1,0,0,0,0
+Luka Mezgec,Mitchelton-Scott,0,6,1,1,1,1,0,1,0,0,0,0
 Svein Tuft,Mitchelton-Scott,20,6,0,0,0,0,0,0,0,0,0,0
-Andrey Amador,Movistar Team,0,6,1,0,0,1,0,0,0,0,0,0
+Andrey Amador,Movistar Team,0,6,1,1,0,1,0,0,0,0,0,0
 Daniele Bennati,Movistar Team,0,6,0,1,0,1,0,0,0,0,0,0
-Carlos Betancur,Movistar Team,0,6,0,1,0,0,0,0,0,0,0,0
+Carlos Betancur,Movistar Team,0,6,0,0,0,0,0,0,0,0,0,0
 Víctor De La Parte,Movistar Team,0,6,0,0,0,0,0,0,0,0,0,0
 Imanol Erviti,Movistar Team,0,6,0,0,0,1,0,0,0,0,0,0
 Rubén Fernández,Movistar Team,0,6,0,0,0,0,0,0,0,0,0,0
@@ -292,28 +292,28 @@ Marco Canola,Nippo - Vini Fantini,30,6,0,0,0,0,0,0,0,0,0,0
 Damiano Cunego,Nippo - Vini Fantini,0,6,0,0,0,0,0,0,0,0,0,0
 Juan José Lobato,Nippo - Vini Fantini,0,6,0,0,0,0,0,0,0,1,0,0
 Laurens De Plus,Quick-Step Floors,0,6,0,0,0,0,0,0,0,0,0,0
-Tim Declercq,Quick-Step Floors,0,6,0,1,0,1,0,0,0,0,0,0
+Tim Declercq,Quick-Step Floors,0,6,1,1,0,1,0,0,0,0,0,0
 Fabio Jakobsen,Quick-Step Floors,0,6,0,0,0,0,1,0,0,0,0,0
 Iljo Keisse,Quick-Step Floors,0,6,1,0,1,1,1,0,0,0,0,0
 Davide Martinelli,Quick-Step Floors,0,6,0,0,0,0,1,0,0,0,0,0
 Enric Mas,Quick-Step Floors,0,6,0,0,0,0,0,0,0,1,1,1
 Jhonatan Narvaez,Quick-Step Floors,0,6,0,0,0,0,0,0,0,0,0,0
-Ariel Maximiliano Richeze,Quick-Step Floors,5,6,0,1,0,0,0,0,0,0,0,0
+Ariel Maximiliano Richeze,Quick-Step Floors,5,6,0,0,0,0,0,0,0,0,0,0
 Fabio Sabatini,Quick-Step Floors,0,6,0,0,0,0,1,0,0,0,0,0
-Florian Sénéchal,Quick-Step Floors,0,6,0,1,0,1,1,0,0,0,0,0
+Florian Sénéchal,Quick-Step Floors,0,6,1,1,0,1,1,0,0,0,0,0
 Pieter Serry,Quick-Step Floors,0,6,0,0,0,0,0,0,0,1,1,1
 Tim Ariesen,Roompot - Nederlandse Loterij,0,6,0,0,0,0,0,0,0,0,0,0
 Jesper Asselman,Roompot - Nederlandse Loterij,0,6,0,0,0,1,0,0,0,0,0,0
 Floris Gerts,Roompot - Nederlandse Loterij,0,6,1,1,0,1,0,0,0,0,0,0
 Pim Ligthart,Roompot - Nederlandse Loterij,0,6,1,1,0,1,1,0,0,0,0,0
 Pieter Weening,Roompot - Nederlandse Loterij,0,6,0,0,0,0,0,0,0,0,0,0
-Wouter Wippert,Roompot - Nederlandse Loterij,0,6,0,0,0,0,1,0,0,0,0,0
+Wouter Wippert,Roompot - Nederlandse Loterij,0,6,1,0,0,0,1,0,0,0,0,0
 Edward Planckaert,Sport Vlaanderen - Baloise,0,6,0,1,0,1,1,0,0,0,0,0
 Preben Van Hecke,Sport Vlaanderen - Baloise,0,6,0,1,0,1,0,0,0,0,0,0
 José Gonçalves,Team Katusha - Alpecin,0,6,1,1,0,1,0,0,0,0,0,0
-Reto Hollenstein,Team Katusha - Alpecin,0,6,1,0,1,0,0,0,0,0,0,0
+Reto Hollenstein,Team Katusha - Alpecin,0,6,0,0,1,0,0,0,0,0,0,0
 Robert Kišerlovski,Team Katusha - Alpecin,0,6,0,0,0,0,0,0,0,0,0,0
-Viacheslav Kuznetsov,Team Katusha - Alpecin,0,6,0,0,1,0,0,0,0,0,0,0
+Viacheslav Kuznetsov,Team Katusha - Alpecin,0,6,1,0,1,0,0,0,0,0,0,0
 Maurits Lammertink,Team Katusha - Alpecin,0,6,0,0,0,0,0,0,0,1,1,1
 Baptiste Planckaert,Team Katusha - Alpecin,0,6,1,0,1,1,0,0,0,0,0,0
 Willie Smit,Team Katusha - Alpecin,0,6,0,0,0,0,0,0,0,0,0,0
@@ -358,8 +358,8 @@ Markel Irizar,Trek - Segafredo,0,6,0,0,0,0,0,0,0,0,0,0
 Jarlinson Pantano,Trek - Segafredo,0,6,0,0,0,0,0,0,0,0,0,0
 Mads Pedersen,Trek - Segafredo,0,6,1,1,1,1,0,0,0,0,0,0
 Gregory Rast,Trek - Segafredo,0,6,1,1,1,1,0,0,0,0,0,0
-Kiel Reijnen,Trek - Segafredo,0,6,0,0,0,0,0,0,0,0,0,0
-Boy Van Poppel,Trek - Segafredo,0,6,1,1,1,1,0,0,0,0,0,0
+Kiel Reijnen,Trek - Segafredo,0,6,1,1,0,0,0,0,0,0,0,0
+Boy Van Poppel,Trek - Segafredo,0,6,0,0,1,1,0,0,0,0,0,0
 John Darwin Atapuma,UAE-Team Emirates,0,6,0,0,0,0,0,0,0,0,0,0
 Matteo Bono,UAE-Team Emirates,60,6,0,0,0,0,0,0,0,0,0,0
 Simone Consonni,UAE-Team Emirates,0,6,1,1,1,1,0,0,0,0,0,0
@@ -377,8 +377,8 @@ Mathias De Witte,Vérandas Willems-Crelan,0,6,0,1,0,1,1,0,0,0,0,0
 Huub Duijn,Vérandas Willems-Crelan,0,6,1,1,1,1,0,0,0,0,0,0
 Michael Goolaerts,Vérandas Willems-Crelan,0,6,0,1,1,1,0,1,0,0,0,0
 Tim Merlier,Vérandas Willems-Crelan,0,6,0,0,0,0,0,0,0,0,0,0
-Kris Boeckmans,Vital Concept,0,6,0,1,0,1,1,0,0,0,0,0
-Johan Le Bon,Vital Concept,0,6,1,0,0,1,0,0,0,0,0,0
+Kris Boeckmans,Vital Concept,0,6,0,0,0,1,1,0,0,0,0,0
+Johan Le Bon,Vital Concept,0,6,1,1,0,1,0,0,0,0,0,0
 Jérémy Lecroq,Vital Concept,0,6,1,1,0,0,1,0,0,0,0,0
 Lorrenzo Manzin,Vital Concept,0,6,0,0,0,0,0,0,0,0,0,0
 Quentin Pacher,Vital Concept,0,6,0,0,0,0,0,0,0,0,0,0
@@ -386,18 +386,18 @@ Kévin Réza,Vital Concept,0,6,0,0,0,0,1,0,0,0,0,0
 Frederik Backaert,Wanty - Groupe Gobert,0,6,1,0,1,1,1,0,0,0,0,0
 Jerome Baugnies,Wanty - Groupe Gobert,0,6,0,0,0,0,0,0,0,0,0,0
 Bart De Clercq,Wanty - Groupe Gobert,0,6,0,0,0,0,0,0,0,0,0,0
-Tom Devriendt,Wanty - Groupe Gobert,0,6,1,0,1,0,1,0,0,0,0,0
+Tom Devriendt,Wanty - Groupe Gobert,0,6,0,0,1,0,1,0,0,0,0,0
 Timothy Dupont,Wanty - Groupe Gobert,0,6,0,1,0,0,1,0,0,0,0,0
 Mark McNally,Wanty - Groupe Gobert,0,6,0,0,0,0,0,0,0,0,0,0
 Xandro Meurisse,Wanty - Groupe Gobert,0,6,0,0,0,0,0,0,0,0,1,1
 Marco Minnaard,Wanty - Groupe Gobert,0,6,0,0,0,0,0,0,0,0,0,0
 Yoann Offredo,Wanty - Groupe Gobert,0,6,1,1,0,1,0,0,0,0,0,0
-Andrea Pasqualon,Wanty - Groupe Gobert,0,6,0,1,1,1,0,0,0,0,0,0
-Dion Smith,Wanty - Groupe Gobert,0,6,0,0,1,1,0,0,0,0,0,0
+Andrea Pasqualon,Wanty - Groupe Gobert,0,6,1,1,1,1,0,0,0,0,0,0
+Dion Smith,Wanty - Groupe Gobert,0,6,1,0,1,1,0,0,0,0,0,0
 Guillaume Van Keirsbulck,Wanty - Groupe Gobert,0,6,1,1,1,1,1,0,0,0,0,0
-Pieter Vanspeybrouck,Wanty - Groupe Gobert,0,6,1,1,1,1,1,0,0,0,0,0
-Kenny Dehaes,WB Veranclassic Aqua Protect ,0,6,0,1,1,1,1,0,0,0,0,0
-Christophe Masson,WB Veranclassic Aqua Protect ,0,6,0,0,0,0,0,0,0,0,0,0
+Pieter Vanspeybrouck,Wanty - Groupe Gobert,0,6,0,1,1,1,1,0,0,0,0,0
+Kenny Dehaes,WB Veranclassic Aqua Protect ,0,6,1,1,1,1,1,0,0,0,0,0
+Christophe Masson,WB Veranclassic Aqua Protect ,0,6,1,0,0,0,0,0,0,0,0,0
 Matteo Busato,Wilier Triestina - Selle Italia,0,6,0,0,0,0,0,0,0,0,0,0
 Jakub Mareczko,Wilier Triestina - Selle Italia,0,6,0,0,0,0,0,0,0,0,0,0
 Jacopo Mosca,Wilier Triestina - Selle Italia,60,6,0,0,0,0,0,0,0,0,0,0
@@ -407,7 +407,7 @@ Gediminas Bagdonas,AG2R La Mondiale,0,4,1,1,1,1,0,0,0,0,0,0
 François Bidard,AG2R La Mondiale,0,4,0,0,0,0,0,0,0,0,0,0
 Clément Chevrier,AG2R La Mondiale,0,4,0,0,0,0,0,0,0,0,0,0
 Benoit Cosnefroy,AG2R La Mondiale,0,4,0,0,0,0,0,0,0,0,0,0
-Nico Denz,AG2R La Mondiale,0,4,1,0,0,0,0,1,0,0,0,0
+Nico Denz,AG2R La Mondiale,0,4,1,1,0,0,0,1,0,0,0,0
 Julien Duval,AG2R La Mondiale,0,4,1,1,1,1,0,0,0,0,0,0
 Ben Gastauer,AG2R La Mondiale,0,4,0,0,0,0,0,0,0,0,0,0
 Alexis Gougeard,AG2R La Mondiale,0,4,0,0,0,0,0,0,0,0,0,0
@@ -431,7 +431,7 @@ Nikita Stalnov,Astana Pro Team,0,4,0,0,0,0,0,0,0,0,0,0
 Ruslan Tleubayev,Astana Pro Team,0,4,0,0,0,0,1,0,0,0,0,0
 Artyom Zakharov,Astana Pro Team,0,4,0,0,0,0,0,0,0,0,0,0
 Valerio Agnoli,Bahrain Merida Pro Cycling Team,0,4,0,0,0,0,0,0,0,0,0,0
-Yukiya Arashiro,Bahrain Merida Pro Cycling Team,0,4,0,0,0,0,0,0,0,0,0,0
+Yukiya Arashiro,Bahrain Merida Pro Cycling Team,0,4,0,0,0,0,0,0,0,1,1,1
 Manuele Boaro,Bahrain Merida Pro Cycling Team,0,4,0,0,0,0,0,0,0,0,0,0
 Grega Bole,Bahrain Merida Pro Cycling Team,0,4,0,0,0,0,0,0,0,0,0,0
 Chun Kai Feng,Bahrain Merida Pro Cycling Team,0,4,0,0,0,0,0,0,0,0,0,0
@@ -463,8 +463,8 @@ Kilian Frankiny,BMC Racing Team,0,4,0,0,0,0,0,0,0,0,0,0
 Joey Rosskopf,BMC Racing Team,0,4,0,0,0,0,0,0,0,0,0,0
 Michael Schar,BMC Racing Team,0,4,1,1,0,1,0,0,0,0,0,0
 Miles Scotson,BMC Racing Team,0,4,0,0,1,0,0,0,0,0,0,0
-Nathan Van Hooydonck,BMC Racing Team,0,4,1,1,0,1,0,0,0,0,0,0
-Erik Baška,BORA - hansgrohe,0,4,1,0,0,0,1,0,0,0,0,0
+Nathan Van Hooydonck,BMC Racing Team,0,4,0,1,0,1,0,0,0,0,0,0
+Erik Baška,BORA - hansgrohe,0,4,0,0,0,0,1,0,0,0,0,0
 Christoph Pfingsten,BORA - hansgrohe,0,4,1,0,0,0,1,0,0,0,0,0
 Juraj Sagan,BORA - hansgrohe,0,4,0,1,1,1,0,0,0,0,0,0
 Andreas Schillinger,BORA - hansgrohe,0,4,0,1,0,1,0,0,0,0,0,0
@@ -505,7 +505,7 @@ Nickolas Dlamini,Dimension Data,0,4,0,0,0,0,0,0,0,0,0,0
 Nick Dougall,Dimension Data,0,4,1,1,1,1,1,0,0,0,0,0
 Ryan Gibbons,Dimension Data,0,4,1,0,1,1,1,0,0,0,0,0
 Jacques Janse Van Rensburg,Dimension Data,0,4,0,0,0,0,0,0,0,0,0,0
-Benjamin King,Dimension Data,0,4,0,0,0,0,0,0,0,0,0,0
+Benjamin King,Dimension Data,0,4,1,0,0,0,0,0,0,0,0,0
 Merhawi Kudus,Dimension Data,0,4,0,0,0,0,0,0,0,0,0,0
 Lachlan Morton,Dimension Data,0,4,0,0,0,0,0,0,0,0,0,0
 Ben O`Connor,Dimension Data,0,4,0,0,0,0,0,0,0,0,0,0
@@ -523,9 +523,9 @@ Bryan Nauleau,Direct Energie,0,4,0,0,0,0,0,0,0,0,0,0
 Paul Ourselin,Direct Energie,0,4,0,0,0,0,0,0,0,0,0,0
 Alexandre Pichot,Direct Energie,0,4,1,0,0,0,0,0,0,0,0,0
 Perrig Quemeneur,Direct Energie,0,4,0,0,0,0,0,0,0,0,0,0
-Simon Sellier,Direct Energie,0,4,1,0,0,0,0,0,0,0,0,0
+Simon Sellier,Direct Energie,0,4,0,0,0,0,0,0,0,0,0,0
 Romain Sicard,Direct Energie,0,4,0,0,0,0,0,0,0,0,0,0
-Angelo Tulik,Direct Energie,0,4,0,0,0,0,0,0,0,0,0,0
+Angelo Tulik,Direct Energie,0,4,1,0,0,0,0,0,0,0,0,0
 Nathan Brown,EF Education First-Drapac p/b Cannondale,0,4,0,0,0,0,0,0,0,0,0,0
 Julián Cardona,EF Education First-Drapac p/b Cannondale,0,4,0,0,0,0,0,0,0,0,0,0
 Kim Magnusson,EF Education First-Drapac p/b Cannondale,0,4,0,0,0,0,1,0,0,0,0,0
@@ -556,7 +556,7 @@ Sergey Lagutin,Gazprom-RusVelo ,0,4,0,0,0,0,0,0,0,0,0,0
 Artem Nych,Gazprom-RusVelo ,0,4,0,0,0,0,0,0,0,0,0,0
 Aleksandr Vlasov,Gazprom-RusVelo ,0,4,0,0,0,0,0,0,0,0,0,0
 Bruno Armirail,Groupama - FDJ,0,4,0,0,0,0,0,0,0,0,0,0
-Antoine Duchesne,Groupama - FDJ,0,4,1,0,0,1,0,0,0,0,0,0
+Antoine Duchesne,Groupama - FDJ,0,4,0,0,0,1,0,0,0,0,0,0
 Daniel Hoelgaard,Groupama - FDJ,0,4,0,0,0,0,0,0,0,0,0,0
 Olivier Le Gac,Groupama - FDJ,10,4,1,1,0,1,0,0,0,0,0,0
 Tobias Ludvigsson,Groupama - FDJ,0,4,0,0,0,0,0,0,0,0,0,0
@@ -580,7 +580,7 @@ Dennis Van Winden,Israel Cycling Academy,60,4,0,0,0,0,0,0,0,0,0,0
 Tyler Williams,Israel Cycling Academy,0,4,0,0,0,0,0,0,0,0,0,0
 Aviv Yechezkel,Israel Cycling Academy,0,4,0,0,0,0,0,0,0,0,0,0
 Sander Armée,Lotto Soudal,0,4,0,0,0,0,0,0,0,0,0,0
-Frederik Frison,Lotto Soudal,0,4,0,1,1,0,1,0,0,0,0,0
+Frederik Frison,Lotto Soudal,0,4,1,1,1,0,1,0,0,0,0,0
 Tomasz Marczynski,Lotto Soudal,0,4,0,0,0,0,0,0,0,0,0,0
 Remy Mertz,Lotto Soudal,0,4,0,0,0,0,0,0,0,0,0,0
 Lawrence Naesen,Lotto Soudal,0,4,1,0,0,0,0,0,0,0,0,0
@@ -599,7 +599,7 @@ Carlos Verona,Mitchelton-Scott,0,4,0,0,0,0,0,0,0,0,0,0
 Winner Anacona,Movistar Team,0,4,0,0,0,0,0,0,0,0,0,0
 Jorge Arcas,Movistar Team,0,4,1,1,0,0,0,0,0,0,0,0
 Carlos Barbero,Movistar Team,0,4,1,1,0,0,0,0,0,0,0,0
-Nuno Bico,Movistar Team,0,4,1,1,0,1,0,0,0,0,0,0
+Nuno Bico,Movistar Team,0,4,0,1,0,1,0,0,0,0,0,0
 Richard Carapaz,Movistar Team,0,4,0,0,0,1,0,0,0,0,0,0
 Héctor Carretero,Movistar Team,0,4,1,1,0,0,0,0,0,0,0,0
 Jaime Castrillo,Movistar Team,0,4,0,0,0,0,0,0,0,0,0,0
@@ -633,7 +633,7 @@ Maximilian Schachmann,Quick-Step Floors,0,4,0,0,0,0,0,0,0,0,0,0
 Martijn Budding,Roompot - Nederlandse Loterij,0,4,1,1,0,0,0,0,0,0,0,0
 Robbert De Greef,Roompot - Nederlandse Loterij,0,4,0,0,0,0,0,0,0,0,0,0
 Jeroen Meijers,Roompot - Nederlandse Loterij,0,4,0,0,0,0,0,0,0,0,0,0
-Elmar Reinders,Roompot - Nederlandse Loterij,0,4,1,1,0,1,1,0,0,0,0,0
+Elmar Reinders,Roompot - Nederlandse Loterij,0,4,0,1,0,1,1,0,0,0,0,0
 Oscar Riesebeek,Roompot - Nederlandse Loterij,0,4,0,0,0,0,0,0,0,0,0,0
 Taco Van Der Hoorn,Roompot - Nederlandse Loterij,0,4,0,0,0,0,1,0,0,0,0,0
 Nick Van Der Lijke,Roompot - Nederlandse Loterij,0,4,0,0,0,0,0,0,0,0,0,0
@@ -648,7 +648,7 @@ Aime De Gendt,Sport Vlaanderen - Baloise,0,4,1,0,1,1,0,0,0,0,0,0
 Kenny De Ketele,Sport Vlaanderen - Baloise,0,4,0,0,0,0,0,0,0,0,0,0
 Moreno De Pauw,Sport Vlaanderen - Baloise,0,4,0,0,0,0,0,0,0,0,0,0
 Lindsay De Vylder,Sport Vlaanderen - Baloise,0,4,0,0,0,0,0,0,0,0,0,0
-Benjamin Declercq,Sport Vlaanderen - Baloise,0,4,1,0,0,1,0,0,0,0,0,0
+Benjamin Declercq,Sport Vlaanderen - Baloise,0,4,0,0,0,1,0,0,0,0,0,0
 Kevin Deltombe,Sport Vlaanderen - Baloise,0,4,1,0,0,0,0,0,0,0,0,0
 Maxime Farazijn,Sport Vlaanderen - Baloise,0,4,1,0,1,0,1,0,0,0,0,0
 Robbe Ghys,Sport Vlaanderen - Baloise,0,4,0,0,0,0,0,0,0,0,0,0
@@ -657,7 +657,7 @@ Christophe Noppe,Sport Vlaanderen - Baloise,0,4,0,1,1,0,0,0,0,0,0,0
 Emiel Planckaert,Sport Vlaanderen - Baloise,0,4,0,0,0,0,0,0,0,0,0,0
 Jonas Rickaert,Sport Vlaanderen - Baloise,0,4,1,0,1,1,1,0,0,0,0,0
 Thomas Sprengers,Sport Vlaanderen - Baloise,0,4,1,0,0,0,0,0,0,0,0,0
-Dries Van Gestel,Sport Vlaanderen - Baloise,0,4,0,1,0,0,0,0,0,0,0,0
+Dries Van Gestel,Sport Vlaanderen - Baloise,0,4,1,1,0,0,0,0,0,0,0,0
 Mathias Van Gompel,Sport Vlaanderen - Baloise,0,4,0,0,0,0,0,0,0,0,0,0
 Kenneth Van Rooy,Sport Vlaanderen - Baloise,0,4,0,1,0,0,1,0,0,0,0,0
 Aaron Verwilst,Sport Vlaanderen - Baloise,0,4,0,0,1,0,0,0,0,0,0,0
@@ -677,14 +677,14 @@ Jhonatan Restrepo,Team Katusha - Alpecin,0,4,0,0,0,0,0,0,0,0,0,0
 Koen Bouwman,Team LottoNL-Jumbo,0,4,0,0,0,0,0,0,0,0,0,0
 Pascal Eenkhoorn,Team LottoNL-Jumbo,0,4,0,0,0,0,0,0,0,0,0,0
 Amund Grondahl Jansen,Team LottoNL-Jumbo,0,4,1,0,1,1,0,1,0,0,0,0
-Tom Leezer,Team LottoNL-Jumbo,0,4,0,1,1,1,1,0,0,0,0,0
+Tom Leezer,Team LottoNL-Jumbo,0,4,1,1,1,1,1,0,0,0,0,0
 Paul Martens,Team LottoNL-Jumbo,0,4,0,0,0,0,0,0,0,1,1,1
 Daan Olivier,Team LottoNL-Jumbo,0,4,0,0,0,0,0,0,0,0,1,0
 Timo Roosen,Team LottoNL-Jumbo,0,4,1,1,0,1,1,0,0,0,0,0
 Bram Tankink,Team LottoNL-Jumbo,0,4,0,0,1,1,1,1,0,1,0,0
 Antwan Tolhoek,Team LottoNL-Jumbo,0,4,0,0,0,0,0,0,0,1,1,1
 Jos Van Emden,Team LottoNL-Jumbo,0,4,1,1,0,1,0,0,0,0,0,0
-Robert Wagner,Team LottoNL-Jumbo,0,4,0,0,1,0,0,0,0,0,0,0
+Robert Wagner,Team LottoNL-Jumbo,0,4,1,0,1,0,0,0,0,0,0,0
 Sam Brand,Team Novo Nordisk,0,4,0,0,0,0,0,0,0,0,0,0
 Joonas Henttala,Team Novo Nordisk,0,4,0,0,0,0,0,0,0,0,0,0
 Brian Kamstra,Team Novo Nordisk,0,4,0,0,0,0,0,0,0,0,0,0
@@ -744,39 +744,39 @@ Zico Waeytens,Vérandas Willems-Crelan,0,4,0,0,1,0,1,1,0,0,0,0
 Yoann Bagot,Vital Concept,0,4,0,0,0,0,0,0,0,0,0,0
 Erwann Corbel,Vital Concept,0,4,0,0,0,0,1,0,0,0,0,0
 Arnaud Courteille,Vital Concept,0,4,0,0,0,0,0,0,0,0,0,0
-Bert De Backer,Vital Concept,0,4,0,1,0,1,0,0,0,0,0,0
+Bert De Backer,Vital Concept,0,4,0,0,0,1,0,0,0,0,0,0
 Corentin Ermenault,Vital Concept,0,4,0,0,0,0,0,0,0,0,0,0
 Marc Fournier,Vital Concept,0,4,0,0,0,0,1,0,0,0,0,0
 Adrien Garel,Vital Concept,0,4,1,1,0,0,0,0,0,0,0,0
-Steven Lammertink,Vital Concept,0,4,1,0,0,0,0,0,0,0,0,0
-Julien Morice,Vital Concept,0,4,0,1,0,1,0,0,0,0,0,0
+Steven Lammertink,Vital Concept,0,4,0,0,0,0,0,0,0,0,0,0
+Julien Morice,Vital Concept,0,4,1,0,0,1,0,0,0,0,0,0
 Justin Mottier,Vital Concept,0,4,0,0,0,0,1,0,0,0,0,0
-Patrick Müller,Vital Concept,0,4,1,0,0,1,0,0,0,0,0,0
-Tanguy Turgis,Vital Concept,0,4,1,0,0,0,0,0,0,0,0,0
-Simone Antonini,Wanty - Groupe Gobert,0,4,0,0,0,0,0,0,0,0,0,0
+Patrick Müller,Vital Concept,0,4,1,1,0,1,0,0,0,0,0,0
+Tanguy Turgis,Vital Concept,0,4,1,1,0,0,0,0,0,0,0,0
+Simone Antonini,Wanty - Groupe Gobert,0,4,1,0,0,0,0,0,0,0,0,0
 Thomas Degand,Wanty - Groupe Gobert,0,4,0,0,0,0,0,0,0,0,0,0
 Fabien Doubey,Wanty - Groupe Gobert,0,4,0,0,0,0,0,0,0,0,0,0
 Odd Christian Eiking,Wanty - Groupe Gobert,0,4,0,0,0,0,0,0,0,0,1,1
-Wesley Kreder,Wanty - Groupe Gobert,0,4,1,0,1,1,1,0,0,0,0,0
+Wesley Kreder,Wanty - Groupe Gobert,0,4,0,0,1,1,1,0,0,0,0,0
 Guillaume Martin,Wanty - Groupe Gobert,0,4,0,0,0,0,0,0,0,1,1,1
 Boris Vallée,Wanty - Groupe Gobert,0,4,0,1,0,0,0,0,0,0,0,0
 Kevin Van Melsen,Wanty - Groupe Gobert,0,4,1,1,0,0,0,0,0,0,0,0
 Ludwig De,WB Veranclassic Aqua Protect ,0,4,0,0,0,0,0,0,0,0,0,0
 Sebastien Delfosse,WB Veranclassic Aqua Protect ,0,4,0,0,0,0,0,0,0,0,0,0
 Thomas Deruette,WB Veranclassic Aqua Protect ,0,4,0,0,0,0,0,0,0,0,0,0
-Jimmy Duquennoy,WB Veranclassic Aqua Protect ,0,4,0,1,0,0,1,0,0,0,0,0
+Jimmy Duquennoy,WB Veranclassic Aqua Protect ,0,4,1,1,0,0,1,0,0,0,0,0
 Gregory Habeaux,WB Veranclassic Aqua Protect ,0,4,0,0,0,0,0,0,0,0,0,0
-Kevyn Ista,WB Veranclassic Aqua Protect ,0,4,1,1,1,1,1,0,0,0,0,0
-Justin Jules,WB Veranclassic Aqua Protect ,0,4,0,0,0,0,1,0,0,0,0,0
+Kevyn Ista,WB Veranclassic Aqua Protect ,0,4,0,1,1,1,1,0,0,0,0,0
+Justin Jules,WB Veranclassic Aqua Protect ,0,4,1,0,0,0,1,0,0,0,0,0
 Alex Kirsch,WB Veranclassic Aqua Protect ,0,4,1,0,1,1,0,1,0,0,0,0
 Eliot Lietaer,WB Veranclassic Aqua Protect ,0,4,0,0,0,0,0,0,0,0,1,1
-Julien Mortier,WB Veranclassic Aqua Protect ,0,4,1,0,0,0,1,0,0,0,0,0
+Julien Mortier,WB Veranclassic Aqua Protect ,0,4,0,0,0,0,1,0,0,0,0,0
 Dimitri Peyskens,WB Veranclassic Aqua Protect ,0,4,0,0,0,0,0,0,0,0,1,1
 Ludovic Robeet,WB Veranclassic Aqua Protect ,0,4,0,0,0,0,0,0,0,0,0,0
-Franklin Six,WB Veranclassic Aqua Protect ,0,4,1,1,1,1,1,0,0,0,0,0
+Franklin Six,WB Veranclassic Aqua Protect ,0,4,0,1,1,1,1,0,0,0,0,0
 Lukas Spengler,WB Veranclassic Aqua Protect ,0,4,1,0,1,1,0,0,0,0,0,0
-Julien Stassen,WB Veranclassic Aqua Protect ,0,4,0,0,0,0,0,0,0,0,0,0
-Maxime Vantomme,WB Veranclassic Aqua Protect ,0,4,1,1,1,1,1,0,0,0,0,0
+Julien Stassen,WB Veranclassic Aqua Protect ,0,4,1,0,0,0,0,0,0,0,0,0
+Maxime Vantomme,WB Veranclassic Aqua Protect ,0,4,0,1,1,1,1,0,0,0,0,0
 Antoine Warnier,WB Veranclassic Aqua Protect ,0,4,0,0,0,0,0,0,0,0,0,0
 Liam Bertazzo,Wilier Triestina - Selle Italia,0,4,0,0,0,0,0,0,0,0,0,0
 Simone Bevilacqua,Wilier Triestina - Selle Italia,0,4,0,0,0,0,0,0,0,0,0,0
