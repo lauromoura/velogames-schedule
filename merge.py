@@ -3,6 +3,7 @@
 #!/usr/bin/env python
 
 import csv
+import json
 
 with open('races.csv') as csvfile:
     races = list(csv.DictReader(csvfile))
@@ -32,12 +33,5 @@ for rider in riders:
     for race in RACES:
         rider[race] = is_in_race(rider, race)
 
-with open('table.csv', 'w') as csvfile:
-    fieldnames = riders[0].keys()
-    writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
-    print(fieldnames)
-
-    writer.writeheader()
-    for rider in riders:
-        writer.writerow(rider)
-
+with open('table.json', 'w') as jsonfile:
+    json.dump(riders, jsonfile)

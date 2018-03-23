@@ -14,7 +14,6 @@ To download and process the data it uses:
 
 On the front end:
 
-* [D3-fetch](https://github.com/d3/d3-fetch) to parse the CSV data.
 * [DataTables](https://datatables.net) to present the data.
 
 Also a couple of [Jupyter](https://jupyter.org/) notebooks were used to start tinkering with the data.
@@ -22,4 +21,4 @@ Also a couple of [Jupyter](https://jupyter.org/) notebooks were used to start ti
 TODO:
 
 * ~~Improve merging speed (Not the best approach doing full boolean indexing inside an apply function).~~
-* Generate a json instead of a csv so we can load the data into JS directly.
+* ~~Generate a json instead of a csv so we can load the data into JS directly.~~
