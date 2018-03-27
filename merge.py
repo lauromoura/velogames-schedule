@@ -17,8 +17,6 @@ def is_in_race(rider, race):
         return 0
 
 RACES = [
-    'e3-harelbeke',
-    'gent-wevelgem',
     'dwars-door-vlaanderen',
     'ronde-van-vlaanderen',
     'scheldeprijs',
