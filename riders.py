@@ -51,7 +51,7 @@ def main():
     fieldnames = ['name', 'team', 'points', 'cost']
     for tr in table.find_all('tr')[1:]: #[1:] to skip the header
         cells = tr.find_all('td')
-        name = cells[1].get_text()
+        name = cells[1].find(text=True).strip()
         team = cells[2].get_text()
         points = int(cells[3].get_text() or '0')
         cost = int(cells[4].get_text() or '0')
