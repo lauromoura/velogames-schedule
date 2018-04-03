@@ -17,8 +17,6 @@ def is_in_race(rider, race):
         return 0
 
 RACES = [
-    'dwars-door-vlaanderen',
-    'ronde-van-vlaanderen',
     'scheldeprijs',
     'paris-roubaix',
     'de-brabantse-pijl',
