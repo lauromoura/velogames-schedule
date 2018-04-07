@@ -18,7 +18,6 @@ logging.basicConfig(level=logging.DEBUG)
 logger = logging.getLogger(__name__)
 
 RACES = [
-    'scheldeprijs',
     'paris-roubaix',
     'de-brabantse-pijl',
     'amstel-gold-race',
