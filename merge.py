@@ -18,7 +18,7 @@ def is_in_race(rider, race):
 
 RACES = [
     'paris-roubaix',
-    'de-brabantse-pijl',
+    'brabantse-pijl',
     'amstel-gold-race',
     'la-fleche-wallone',
     'liege-bastogne-liege',

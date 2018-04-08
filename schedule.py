@@ -19,7 +19,7 @@ logger = logging.getLogger(__name__)
 
 RACES = [
     'paris-roubaix',
-    'de-brabantse-pijl',
+    'brabantse-pijl',
     'amstel-gold-race',
     'la-fleche-wallone',
     'liege-bastogne-liege',
